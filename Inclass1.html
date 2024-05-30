@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclass1</title>
+</head>
+<script type="text/javascript">
+    function addition(){
+    var add1=parseInt(prompt("Please enter the first number to add : "," "));
+    var add2=parseInt(prompt("Please enter the second number to add : "," "));
+    var addition=add1+add2;
+     addition= add1 +" + "+ add2 + " = " + addition;
+    document.write(addition);
+}
+    function modulus(){
+        var module1=parseInt(prompt("Please enter the first number to add : "," "));
+    var module2=parseInt(prompt("Please enter the second number to add : "," "));
+    var module=module1%module2;
+     module= module1 +" % "+ module2 + " = " + module;
+    document.write(module);
+    
+    }
+</script>
+<body>
+    <button id="add" onclick="addition()">Addition</button>
+    <button id="mod" onclick="modulus()">modulus</button>
+</body>
+</html>
